@@ -46,10 +46,15 @@ class Georgia:
     def currency(self):
         print("GEL")
 
+    @staticmethod
+    def Country():
+        print("Georgia")
+
 georgia1 = Georgia("europe",3740000)
 georgia1.currency()
 georgia1.official_language()
 georgia1.capital_city()
+georgia1.Country()
 print(georgia1._a)
 
 
